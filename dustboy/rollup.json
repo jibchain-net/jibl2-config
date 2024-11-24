@@ -1,25 +1,25 @@
 {
   "genesis": {
     "l1": {
-      "hash": "0xafade897f5da5ec11229929eac6c7b934be282edad0843c529a5fc1abe8b97d0",
-      "number": 3739119
+      "hash": "0xe91951dc2145720c0587cd2927a6f9d090fcbd4aa3a83a078bd4ece034081456",
+      "number": 4422994
     },
     "l2": {
-      "hash": "0xbd75b9773b29c03560900cb83f6448a6881b0a8eddf8e301aa5f39996804e3b4",
+      "hash": "0x4c42f7d904d4abc54f8229804be599bff0ce6c25bf24e8ad8160a3167866f2f3",
       "number": 0
     },
-    "l2_time": 1722341375,
+    "l2_time": 1732186079,
     "system_config": {
-      "batcherAddr": "0xf13fbf3bcddfaaee64feb84848d0ffd05aab92e4",
+      "batcherAddr": "0x1affceeee17c20d39146679d5ea9152f6eccb958",
       "overhead": "0x0000000000000000000000000000000000000000000000000000000000000834",
       "scalar": "0x00000000000000000000000000000000000000000000000000000000000f4240",
-      "gasLimit": 150000000
+      "gasLimit": 200000000
     }
   },
-  "block_time": 12,
-  "max_sequencer_drift": 600,
-  "seq_window_size": 3600,
-  "channel_timeout": 60,
+  "block_time": 10,
+  "max_sequencer_drift": 3600,
+  "seq_window_size": 129600,
+  "channel_timeout": 300,
   "l1_chain_id": 8899,
   "l2_chain_id": 555888,
   "regolith_time": 0,
@@ -28,15 +28,14 @@
   "ecotone_time": 0,
   "fjord_time": 0,
   "batch_inbox_address": "0xff00000000000000000000000000000008555888",
-  "deposit_contract_address": "0xdf3902b47454fe7d7a5541dd0136949b49f03131",
-  "l1_system_config_address": "0x205a96ad71a462cb9988070179173e9b2e6d94a9",
+  "deposit_contract_address": "0x7206208ac60c59c3da8048295f39108121166d35",
+  "l1_system_config_address": "0xabd841429104470d5b732e1fd35030b6a713a050",
   "protocol_versions_address": "0x0000000000000000000000000000000000000000",
-  "plasma_config": {
-    "da_challenge_contract_address": "0xebf2c2378fc576729d10d229584da65ecbbcca73",
+  "alt_da": {
+    "da_challenge_contract_address": "0xb4cb01eb88b8f1b45929ed6690aa61b0661b646e",
     "da_commitment_type": "KeccakCommitment",
-    "da_challenge_window": 160,
-    "da_resolve_window": 160
-  },
-  "da_challenge_contract_address": "0x0000000000000000000000000000000000000000"
+    "da_challenge_window": 16,
+    "da_resolve_window": 16
+  }
 }
 
