@@ -4,8 +4,6 @@ export OP_NODE_P2P_ADVERTISE_IP=$PUBLIC_IP
 
 exec /app/op-node --l2=http://op-reth:8551 \
   --l2.jwt-secret=/config/jwt.txt \
-  --sequencer.enabled \
-  --sequencer.l1-confs=5 \
   --verifier.l1-confs=4 \
   --rollup.config=/config/rollup.json \
   --rpc.addr=0.0.0.0 \
